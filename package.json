@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sinenhlanhla",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.9.2"
@@ -19,5 +19,5 @@
     "url": "https://github.com/SineMag/TypeScript101-Vanilla-ts-Project/issues"
   },
   "homepage": "https://github.com/SineMag/TypeScript101-Vanilla-ts-Project#readme",
-  "description": ""
+  "description": "Writing a more robust, maintainable, and error-free code—without adding the complexity of a large framework"
 }
