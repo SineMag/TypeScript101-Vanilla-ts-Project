@@ -8,8 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "typescript": "^5.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SineMag/TypeScript101-Vanilla-ts-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SineMag/TypeScript101-Vanilla-ts-Project/issues"
+  },
+  "homepage": "https://github.com/SineMag/TypeScript101-Vanilla-ts-Project#readme",
+  "description": ""
 }
