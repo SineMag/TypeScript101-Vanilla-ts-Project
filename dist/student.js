@@ -1,5 +1,4 @@
 "use strict";
-let Grade = "A";
 ;
 // 
 const student = {
@@ -16,7 +15,9 @@ const studentTwo = {
 //the function that takes an argument and updates the HTML element
 function displayStudentInfo(student) {
     const greetingElement = document.getElementById("greeting");
-    greetingElement.textContent = `Hello, my name is ${student.name} ${student.age} and I am ${student.grade} years old.!`;
+    if (greetingElement) {
+        greetingElement.textContent = `Hello, my name is ${student.name} and I am ${student.age} years old, and in Grade ${student.grade}!`;
+    }
 }
-//calling the function 
+//calling the function
 displayStudentInfo(student);

@@ -1,4 +1,6 @@
-let Grade:string ="A";
+//defining the type for 'Grade'
+
+type Grade = "A" | "B" | "C" | "D" | "F";
 
 //interface with properties of the student
 interface Student{
@@ -17,19 +19,22 @@ interface Student{
 
      //student two
      const studentTwo:Student = {
-      name: "Sinenhlanhla",
-      age: 29,
-      grade: "A"
+      name: "Joe",
+      age: 27,
+      grade: "B"
     };
 
 
     //the function that takes an argument and updates the HTML element
-    function displayStudentInfo(student) {
-      const greetingElement = document.getElementById("greeting")!;
-      greetingElement.textContent = `Hello, my name is ${student.name} ${student.age} and I am ${student.grade} years old.!`;
+    function displayStudentInfo(student: Student): void {
+      const greetingElement = document.getElementById("greeting");
+      if(greetingElement){
+      greetingElement.textContent = `Hello, my name is ${student.name} and I am ${student.age} years old, and in Grade ${student.grade}!`;
+    }
     }
 
 
-    //calling the function 
+    //calling the function
+   
     displayStudentInfo(student);
 
